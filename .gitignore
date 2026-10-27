@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js Build Output
+.next/
+/out/
+/build/
+/dist/
+tsconfig.tsbuildinfo
+
+# Browser Profiles & Credentials (SANGAT PENTING: Jangan upload sesi/cookies login akun)
+.browser-profile/
+.chrome-cdp-profile/
+
+# Database Lokal & Storage (Berisi data pencarian riwayat & snapshot produk)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite
+data/*.sqlite3
+!data/.gitkeep
+
+# Environment Variables & Secrets
+.env
+.env*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Exported Data & Temporary Reports
+*.xlsx
+*.csv
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+.idea/
